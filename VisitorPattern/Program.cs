@@ -42,11 +42,22 @@ namespace VisitorPattern
             yuki.Add(new File("diary.html", 100));
             yuki.Add(new File("Composite.java", 200));
 
+            hanako.Add(new File("index.html", 300));
             hanako.Add(new File("memo.txt", 300));
 
             tomura.Add(new File("game.doc", 400));
             tomura.Add(new File("junk.mail", 500));
             rootDir.Accept(new ListVisitor());
+
+            Console.WriteLine("");
+            Console.WriteLine("List files that ends with specific file type.....");
+            FileFindVisitor fileFindVisitor = new FileFindVisitor(".html");
+            rootDir.Accept(fileFindVisitor);
+            foreach (var foundFile in fileFindVisitor.GetFoundFiles())
+            {
+                var file = foundFile as File;
+                Console.WriteLine(file);
+            }
 
             Console.ReadLine();
         }

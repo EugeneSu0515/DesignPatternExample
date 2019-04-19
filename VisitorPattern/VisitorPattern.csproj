@@ -47,6 +47,7 @@
     <Compile Include="Element\Element.cs" />
     <Compile Include="Element\Entry.cs" />
     <Compile Include="Element\File.cs" />
+    <Compile Include="Visitor\FileFindVisitor.cs" />
     <Compile Include="Visitor\ListVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
