@@ -4,14 +4,14 @@
     <Position X="5.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIIAICAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Directory.cs</FileName>
+      <FileName>Element\Directory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VisitorPattern.Entry">
     <Position X="7.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Entry.cs</FileName>
+      <FileName>Element\Entry.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -19,14 +19,14 @@
     <Position X="9.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIABAA=</HashCode>
-      <FileName>File.cs</FileName>
+      <FileName>Element\File.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VisitorPattern.ListVisitor">
     <Position X="3.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ListVisitor.cs</FileName>
+      <FileName>Visitor\ListVisitor.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -48,7 +48,7 @@
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Element.cs</FileName>
+      <FileName>Element\Element.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Microsoft JhengHei UI" Size="9" />
