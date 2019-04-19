@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{016C7BCD-4CE5-42F9-B230-60941B2624E1}</ProjectGuid>
+    <ProjectGuid>{07D0722E-790F-406E-BF23-642618A6A80A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPatternsExample</RootNamespace>
-    <AssemblyName>DesignPatternsExample</AssemblyName>
+    <RootNamespace>VisitorPattern</RootNamespace>
+    <AssemblyName>VisitorPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Directory.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="Entry.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="ListVisitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="VisitorUML.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
